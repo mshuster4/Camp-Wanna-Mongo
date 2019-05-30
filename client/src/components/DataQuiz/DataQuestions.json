@@ -1,0 +1,116 @@
+{
+    "quizTitle": "Data Divers ",
+    "quizSynopsis": "How familiar are you with MySQL and Mongo Databases? Select the correct answer to these ten common technical interview questions and see where you stand.",
+    "questions": [
+      {
+        "question": "What are CRUD operations? ",
+        "answers": [
+          "Create, Read, Update, and Delete ",
+          "Create, Route, Update, and Delete",
+          "Create, Read, Update, and Document",
+          "Create, Read, UnMount, and Delete "
+        ],
+        "questionType": "text",
+        "correctAnswer": "1"
+      },
+      {
+        "answers": [
+          "JSON",
+          "BSON",
+          "MSON",
+          "DSON"
+        ],
+        "question": "How is data stored in MongoDB?",
+        "questionType": "text",
+        "correctAnswer": "2"
+      },
+      {
+        "answers": [
+          "VARCHAR",
+          "TEXT",
+          "BLOB",
+          "STRING"
+        ],
+        "question": "Which of the following is NOT a MySQL string type?",
+        "correctAnswer": "4",
+        "questionType": "text"
+      },
+      {
+        "answers": [
+          "INNER",
+          "LEFT",
+          "MIDDLE",
+          "FULL"
+        ],
+        "question": "Which of the following is NOT a type of MySQL join?",
+        "questionType": "text",
+        "correctAnswer": "3"
+      },
+      {
+        "answers": [
+          "drop.db.collection()",
+          "db.drop.collection()",
+          "db.collection.drop()",
+          "db.table.drop()"
+        ],
+        "questionType": "text",
+        "question": "What is the syntax to drop a collection on MongoDB",
+        "correctAnswer": "3"
+      },
+      {
+        "answers": [
+          "It creates a unique index",
+          "It is always the first field in documents",
+          "It won't contain any arrays",
+          "It needs to be added manually"
+        ],
+        "questionType": "text",
+        "question": "What is NOT true about the _id field in MongoDB",
+        "correctAnswer": "4"
+      },
+      {
+        "answers": [
+          "Find Databases;",
+          "Show Databases;",
+          "List Databases;",
+          "Read Databases;"
+        ],
+        "questionType": "text",
+        "question": "Which command will list all databases in MySql?",
+        "correctAnswer": "2"
+      },
+      {
+        "answers": [
+          "8080",
+          "3000",
+          "3360",
+          "3306"
+        ],
+        "questionType": "text",
+        "question": "What is MySql's default port number?",
+        "correctAnswer": "4"
+      },
+      {
+        "answers": [
+          "use <db_name>",
+          "create <db_name>",
+          "switch <db_name>",
+          "index <db_name>"
+        ],
+        "questionType": "text",
+        "question": "Which command will create a MongDB Database?",
+        "correctAnswer": "1"
+      },
+      {
+        "answers": [
+          "CREATE ROW",
+          "CREATE INTO",
+          "INSERT INTO ",
+          "INSERT AFTER "
+        ],
+        "questionType": "text",
+        "question": "Which MySQl statement will add a new row to a table?",
+        "correctAnswer": "3"
+      }
+    ]
+  }

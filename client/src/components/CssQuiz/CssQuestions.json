@@ -1,0 +1,116 @@
+{
+    "quizTitle": "Css Crusaders ",
+    "quizSynopsis": "How familiar are you with CSS? Select the correct answer to these ten common technical interview questions and see where you stand.",
+    "questions": [
+      {
+        "answers": [
+          "Static",
+          "Relative",
+          "Inherit ",
+          "Fixed "
+        ],
+        "question": "Which of the following is NOT a CSS position state?",
+        "questionType": "text",
+        "correctAnswer": "3"
+      },
+      {
+        "question": "Which three ways can CSS styles be applied to a web page?",
+        "answers": [
+          "Inline, Internal, and External",
+          "Inline, JS, and Combined",
+          "Inline, Tagged, and External",
+          "Inline, Internal, and Web"
+        ],
+        "questionType": "text",
+        "correctAnswer": "1"
+      },
+      {
+        "answers": [
+          "Margin",
+          "Border",
+          "Content",
+          "Width"
+        ],
+        "question": "Which of the following is NOT part of the CSS box model?",
+        "questionType": "text",
+        "correctAnswer": "4"
+      },
+      {
+        "answers": [
+          "Selector and Declaration ",
+          "Tag and Declaration ",
+          "Selector and Definition ",
+          "Class and Declaration "
+        ],
+        "question": "What are the two parts of a Ruleset? ",
+        "correctAnswer": "1",
+        "questionType": "text"
+      },
+      {
+        "answers": [
+          "With two colons (ex: a::hover)",
+          "With one colon (ex: a:hover)",
+          "With one semi-colon (ex: a;hover)",
+          "With a period (ex: a.hover)"
+        ],
+        "question": "What is the correct way to define a pseudo class?",
+        "questionType": "text",
+        "correctAnswer": "1"
+      },
+      {
+        "answers": [
+          "Bulma ",
+          "Bootstrap",
+          "Semantic UI",
+          "Style UI"
+        ],
+        "question": "Which of the following is NOT a CSS framework?",
+        "questionType": "text",
+        "correctAnswer": "4"
+      },
+      {
+        "answers": [
+          "#",
+          "@",
+          "*",
+          ";"
+        ],
+        "question": "Which selector will apply style to all elements on a web page?",
+        "correctAnswer": "3",
+        "questionType": "text"
+      },
+      {
+        "answers": [
+          "With one colon (ex: p:first-line)",
+          "With two colons (ex: p::first-line)",
+          "With a semi-colon (ex: p;first-line)",
+          "With a period (ex: p.first-line)"
+        ],
+        "question": "What is the correct way to define a pseudo element?",
+        "questionType": "text",
+        "correctAnswer": "2"
+      },
+      {
+        "answers": [
+          "Rational and Radical ",
+          "Blended and Radical",
+          "Linear and Static",
+          "Linear and Radical"
+        ],
+        "question": "What are the two types of gradients in CSS?",
+        "correctAnswer": "4",
+        "questionType": "text"
+      },
+      {
+        "answers": [
+          "px",
+          "em",
+          "hz",
+          "vh"
+        ],
+        "question": "Which of the following is NOT a measurement unit in CSS?",
+        "correctAnswer": "3",
+        "questionType": "text"
+      }
+    ]
+  }

@@ -1,0 +1,12 @@
+.number {
+    background-image: url("../HomePageImages/number-background.png");
+    background-size: 100% 100%;
+    border: none; 
+    margin-bottom: 1rem; 
+    color: #F2F2F0;
+    cursor: pointer; 
+}
+
+.number-header {
+    margin: 0px;
+}

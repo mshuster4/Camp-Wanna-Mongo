@@ -1,0 +1,47 @@
+.game-body {
+    background-image: url("../HomePageImages/mathgame-wallpaper.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 2rem; 
+    width: 100%;
+    min-height: 100vh;
+}
+
+.challenge-numbers {
+    background-color: rgba(255,255,255, 0.85);
+    border-radius: 4px;
+    padding: 25px 15px 15px 15px; 
+}
+
+.target-container {
+    background-color: rgba(255,255,255, 0.85);
+    border-radius: 4px;
+    padding: 15px; 
+    margin: 0 0 1rem 0;
+}
+
+.time {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(255,255,255, 0.85);
+    border-radius: 4px;
+    padding: 15px; 
+    text-align: center;
+}
+
+.score {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(255,255,255, 0.85);
+    border-radius: 4px;
+    padding: 15px; 
+    text-align: center;
+}
+
+.target {
+    background-image: url("../HomePageImages/number-background.png");
+    background-size: 100% 100%;
+    border: none; 
+    margin-bottom: 1rem; 
+    color: #F2F2F0;
+}

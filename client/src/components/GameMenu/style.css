@@ -1,0 +1,53 @@
+.container.game-menu-container {
+    margin-bottom: 1.25rem;
+}
+
+.flippy-cardContainer-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.flippy-front, .flippy-back {
+    background-color: white;
+}
+
+img.img-fluid.back-image {
+    padding: 2px;
+}
+
+img.card-img {
+    height: 16vh;
+}
+
+img.img-fluid.back-image {
+    height: 20vh;
+    width: 100%;
+}
+
+h4 {
+    font-family: bello-pro, sans-serif;
+    font-weight: 400;
+    font-size: 2rem; 
+    font-style: normal;
+    color: #8C0B23;
+}
+
+a:hover, a:focus {
+    color: #4B5918;
+    text-decoration: none;
+}
+
+p {
+    color: #8C0B23;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .flippy-container {
+        margin-bottom: 1.5rem;
+    }
+
+}

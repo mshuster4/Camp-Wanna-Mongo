@@ -1,0 +1,116 @@
+{
+        "quizTitle": "HTML Heroes",
+        "quizSynopsis": "How familiar are you with HTML? Select the correct answer to these ten common technical interview questions and see where you stand.",
+        "questions": [
+        {
+            "question": "What does HTML stand for?",
+            "questionType": "text",
+            "answers": [
+            "Hypertext Markup Language",
+            "Hypertext Mockup Language ",
+            "Hypertext Model Language",
+            "Hypertext Middle Language "
+            ],
+            "correctAnswer": "1"
+        },
+        {
+            "question": "Which line of HTML code will open a link in a new tab?",
+            "questionType": "text",
+            "answers": [
+                "<a href=\"#\" target=\"#blank\"></a>",
+                "<a href=\"#\" target=\"-blank\"></a>",
+                "<a href=\"#\" target=\"_blank\"></a>",
+                "<a href=\"#\" target=\"blank\"></a>"
+            ],
+            "correctAnswer": "3"
+            },
+            {
+            "question": "How many different types of HTML headers exist?",
+            "questionType": "text",
+            "answers": [
+                "10",
+                "6",
+                "4",
+                "1"
+            ],
+            "correctAnswer": "2"
+            },
+            {
+            "question": "How do you leave a comment in HTML? ",
+            "questionType": "text",
+            "answers": [
+                "// COMMMENT",
+                "*/ COMMENT",
+                "<--COMMENT-->",
+                "<!--COMMENT-->"
+            ],
+            "correctAnswer": "4"
+            },
+            {
+            "question": "What are the three types of HTML lists?",
+            "questionType": "text",
+            "answers": [
+                "Ordered, Unordered and Definition",
+                "Ordered, Unordered, and Dictionary",
+                "Ordered, Unordered, and Table",
+                "Ordered, Unordered, and Combined "
+            ],
+            "correctAnswer": "1"
+            },
+            {
+            "question": "What are the three types of HTML lists?",
+            "questionType": "text",
+            "answers": [
+                "Local and Session ",
+                "Local and Distance",
+                "Cookie and Session ",
+                "Internet and Session "
+            ],
+            "correctAnswer": "1"
+            },
+            {
+            "question": "Which of the following HTML tags produces a horizontal line?",
+            "questionType": "text",
+            "answers": [
+                "<hl>",
+                "<hr>",
+                "<br>",
+                "<line>"
+            ],
+            "correctAnswer": "2"
+            },
+            {
+            "question": "Which HTML tag does not come in a pair?",
+            "questionType": "text",
+            "answers": [
+                "<div>",
+                "<a>",
+                "<span>",
+                "<img>"
+            ],
+            "correctAnswer": "4"
+            },
+            {
+            "question": "Which of the following is a block level element? ",
+            "questionType": "text",
+            "answers": [
+                "<span>",
+                "<a>",
+                "<img>",
+                "<div>"
+            ],
+            "correctAnswer": "4"
+            },
+            {
+            "question": "Which of the following is an inline element>?",
+            "questionType": "text",
+            "answers": [
+                "<span>",
+                "<div>",
+                "<p>",
+                "<h1>"
+            ],
+            "correctAnswer": "1"
+            }
+        ]
+    } 

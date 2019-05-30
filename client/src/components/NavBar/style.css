@@ -1,0 +1,47 @@
+.bg-dark {
+    background-color: #8C0B23 !important;
+}
+
+.ml-auto.navbar-nav {
+    padding-top: 7px;
+}
+
+.log-button {
+    margin-top: -1px;
+    background: 0;
+    border: none !important;
+    outline: none !important;
+}
+
+.log-button:hover {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.log-button:focus {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.log-button:active {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #F2F2F0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav.navbar.navbar-expand-md.navbar-dark.bg-dark {
+        text-align: center;
+    }
+} 
+
+
+
+

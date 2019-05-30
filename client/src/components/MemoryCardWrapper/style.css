@@ -1,0 +1,12 @@
+
+.cardwrapper {
+  padding-top: 50px;
+  background-image: url("../HomePageImages/Yosemite.jpg");
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}

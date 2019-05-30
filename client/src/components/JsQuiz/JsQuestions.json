@@ -1,0 +1,116 @@
+{
+    "quizTitle": "JavaScript Junkies ",
+    "quizSynopsis": "How familiar are you with JavaScript? Select the correct answer to these ten common technical interview questions and see where you stand.",
+    "questions": [
+      {
+        "answers": [
+          "Number",
+          "Undefined ",
+          "Boolean",
+          "Text"
+        ],
+        "questionType": "text",
+        "question": "Which of the following is NOT a JavaScript data type?",
+        "correctAnswer": "4"
+      },
+      {
+        "questionType": "text",
+        "answers": [
+          "push()",
+          "pop()",
+          "add()",
+          "append()"
+        ],
+        "question": "Which method appends elements to the end of an array?",
+        "correctAnswer": "1"
+      },
+      {
+        "answers": [
+          "obj[\"property\"] and obj.property",
+          "obj[property] and obj.property",
+          "property[obj] and property.obj",
+          "[obj][property] and (obj)property"
+        ],
+        "questionType": "text",
+        "question": "What are the two ways to assign object properties?",
+        "correctAnswer": "1"
+      },
+      {
+        "questionType": "text",
+        "answers": [
+          "Regional and Global",
+          "Local and Distance",
+          "Local and Global",
+          "Home and Global"
+        ],
+        "question": "What are the two scopes of a variable in JavaScript?",
+        "correctAnswer": "3"
+      },
+      {
+        "questionType": "text",
+        "question": "Which of the following is NOT a JavaScript  framework?",
+        "answers": [
+          "Angular",
+          "React",
+          "Vue",
+          "Function"
+        ],
+        "correctAnswer": "4"
+      },
+      {
+        "answers": [
+          "And (&&)",
+          "Or (||)",
+          "Also (++)",
+          "Not (!)"
+        ],
+        "questionType": "text",
+        "question": "Which of the following is NOT a boolean operator?",
+        "correctAnswer": "3"
+      },
+      {
+        "answers": [
+          "onover",
+          "onclick",
+          "oncode",
+          "onuse"
+        ],
+        "question": "Which of the following is a common JavaScript event listener? ",
+        "questionType": "text",
+        "correctAnswer": "2"
+      },
+      {
+        "answers": [
+          "Fulfilled, Working, and Rejected.",
+          "Incomplete, Pending, and Completed.",
+          "In, Pending, and Out.",
+          "Fulfilled, Pending, and Rejected."
+        ],
+        "questionType": "text",
+        "question": "What are a promise object's three possible states?",
+        "correctAnswer": "4"
+      },
+      {
+        "answers": [
+          "Not a Number ",
+          "Never a Number ",
+          "Null also Never",
+          "Null and Null"
+        ],
+        "questionType": "text",
+        "question": "What does NaN mean in JavaScript?",
+        "correctAnswer": "1"
+      },
+      {
+        "answers": [
+          "JSON.toString()",
+          "JSON.text()",
+          "JSON.stringify()",
+          "JSON.parce()"
+        ],
+        "questionType": "text",
+        "question": "Which method will convert a JSON object into a string?",
+        "correctAnswer": "3"
+      }
+    ]
+  }

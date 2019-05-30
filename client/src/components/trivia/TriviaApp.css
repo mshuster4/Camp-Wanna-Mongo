@@ -1,0 +1,76 @@
+  .TriviaApp {
+      background-image: url("images/aframe_cabins.jpg");
+      height: 800px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .TriviaApp-header {
+    background-color: #8C0B23;
+    padding: 20px;
+    color: #f2f2f0;
+    text-align: center;
+  }
+    
+li {
+    list-style-type: none;
+}
+
+  .answerOptions {
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .answerOption {
+    padding: 5px;
+    font-size: 18px;
+  }
+
+button {
+    background-color: #4b5918;
+    border-color: #4b5918;
+    color: #f2f2f0;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+
+  .result-link {
+    float: right;
+      /* background-color: green; */
+    color: #000000;
+  }
+
+  .status{
+    color: #f2f2f0;
+  }
+
+  .list-grp {
+    text-align: left;
+      line-height: 1.5;
+      padding: 10px;
+      background: #f2f2f0;
+  }
+
+  .quiz-story{
+    padding: 30px;
+    width: 70%;
+    background-color: #f2f2f0;
+    margin: 40px auto auto auto;
+    min-height: 400px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .selected-btn {
+    background-color: #8C0B23;
+  }
+
+  /* .bottom-footer{
+    margin-top: 100px;
+    height: 40px;
+    background-color: #8C0B23;
+  } */

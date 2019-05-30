@@ -1,0 +1,34 @@
+.bg-color {
+    background-image:url("../HomePageImages/banner1.jpg");
+    background-size: 100% 100%;
+    padding: 35px 0px 35px 0px;
+    margin-bottom: 2.5rem;
+}
+
+.swiper-slide {
+    height: 250px;
+}
+
+#addition-game {
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url("../HomePageImages/addition-icon.png");
+}
+
+#minesweeper-game {
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url("../HomePageImages/minesweeper-icon.png");
+}
+
+#trivia-game {
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url("../HomePageImages/trivia-icon.png");
+}
+
+#memory-game {
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url("../HomePageImages/memory-icon.png");
+}

@@ -1,0 +1,37 @@
+div#modal {
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 4rem;
+    min-width: 50%;
+    min-height: 60%;
+}
+
+p {
+    color: black;
+}
+
+h2 {
+    margin: 1rem 0 1rem 0;
+}
+
+h5 {
+    margin: 1rem 0 1rem 0;
+}
+
+button.add-start {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px; 
+    color: #8C0B23;
+    background-color: white; 
+    border-color: #8C0B23;
+    font-style: normal;
+}
+
+button.add-start:hover, button.add-start:focus, button.add-start:active {
+    background-color: #8C0B23;
+    color: white; 
+    border-color: white;
+    outline: 0 none !important;
+}

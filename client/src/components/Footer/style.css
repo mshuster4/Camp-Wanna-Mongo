@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    position: static;
+    bottom: 0;
+}
+
+.upper-footer{
+    background-color: white;
+    color: #8c0a22;
+    padding: 20px 0px 20px 0px;
+}
+
+.lower-footer {
+    padding: 10px;
+    background-color: #8c0a22;
+    text-align: center;
+}
+
+p.footer-text{
+    color: white;
+}
+
+.contact-icon{
+    font-size: x-small;
+}
+
+.contact-text{
+    font-size: x-small;
+}
+
+.follow-header {
+    margin-bottom: 1rem;
+}
+
+.follow-icon{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.about-text {
+    font-size: x-small;
+}
+
+.about-icon {
+    font-size: x-small;
+}
