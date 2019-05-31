@@ -9,11 +9,20 @@ mongoose.connect(
 const playerSeed = [
     {
         username: "playerOne",
-        points: 1
+        points: 3
     },
     {
         username: "playerTwo",
+        points: 2
+    },
+    {
+        username: "playerThree",
         points: 1
+
+    },
+    {
+        userName: "playerFour",
+        points: 5
     }
 
 ];

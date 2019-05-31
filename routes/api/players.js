@@ -6,4 +6,7 @@ router.route("/")
   .get(playersController.findAll)
   .post(playersController.create);
 
+router.route("/:id")
+  .put(playersController.update);
+
 module.exports = router;

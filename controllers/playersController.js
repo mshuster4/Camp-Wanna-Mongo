@@ -16,7 +16,11 @@ module.exports = {
   },
   update: function(req, res) {
     db.Player
-      .findOneAndUpdate({_id:req.params.id}, {$inc: {rank: 1}}, {new: true})
+      .findOneAndUpdate({_id:req.params.id}, function(err, player) {
+        player.setNext("rank", function(err, user) {
+          if (err) console.log("didn't work because", err);
+        });
+      })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   }

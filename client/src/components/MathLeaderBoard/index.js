@@ -12,6 +12,7 @@ class MathLeaderBoard extends Component {
     componentDidMount(){
       this.loadPlayers();
     }
+  
 
     loadPlayers = () => {
       API.getPlayers()
@@ -28,7 +29,6 @@ class MathLeaderBoard extends Component {
             <Table responsive="sm">
               <thead>
                 <tr>
-                  <th>Rank</th>
                   <th>Username</th>
                   <th>Points</th>
                 </tr>
@@ -36,7 +36,6 @@ class MathLeaderBoard extends Component {
                 <ScoreTable>
                 {this.state.players.map(player =>(
                   <Player key={player._id}>
-                  <td>{player.rank}</td>
                   <td>{player.username}</td>
                   <td>{player.points}</td>
                   </Player>

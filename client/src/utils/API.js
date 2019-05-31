@@ -26,7 +26,10 @@ export default {
     return axios.get("/api/players");
   },
   postPlayerScore: function(playerData) {
-    return axios.post("api/players",{  points: playerData })
+    return axios.post("api/players", {  points: playerData })
+  },
+  setPlayerRank: function(id) {
+    return axios.put("api/players" + id)
   }
 
 };
