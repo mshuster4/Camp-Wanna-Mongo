@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import NavBar from "../components/NavBar";
 import GameCarousel from "../components/GameCarousel";
 import GameMenu from "../components/GameMenu";
-import LeaderBoardContainer from "../components/LeaderBoardContainer";
-import LeaderBoard from "../components/LeaderBoard";
+import MathLeaderBoard from "../components/MathLeaderBoard";
 
 class Callback extends Component {
   render() {
@@ -18,8 +17,7 @@ class Callback extends Component {
         ></NavBar>
         <GameCarousel></GameCarousel>
         <GameMenu></GameMenu>
-        <LeaderBoardContainer></LeaderBoardContainer>
-        <LeaderBoard></LeaderBoard>
+        <MathLeaderBoard></MathLeaderBoard>
       </div>
     );
   }

@@ -1,7 +1,6 @@
 import axios from "axios";
 import Auth from "./Auth";
 
-
 const headers = () => {
   const options = {};
   // if authenticated create Authorization header to add to api calls
@@ -23,4 +22,8 @@ export default {
     // send user signup info to API
     return axios.post("/api/auth/signup", signupInfo);
   },
-}
+  getPlayers: function() {
+    return axios.get("/api/players");
+  }
+
+};

@@ -1,54 +1,58 @@
 import React, { Component } from 'react';
-import ZingGrid from 'zinggrid';
+import API from "../../utils/API";
+import Table from "react-bootstrap/Table";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "../Grid";
-import "../LeaderBoard/style.css"
 
 class MathLeaderBoard extends Component {
+    state = {
+      players: [],
+    };
 
-  // initialize variables
-  constructor(props) {
-    super(props);
-    this.state = {
-      leader: [],
+    componentDidMount(){
+      this.loadPlayers();
     }
-  }
 
-  // initialize data to grid
-  componentDidMount() {
-    // set state and reflect that change through attribute mutation
-    this.setState(() => {
-      return {
-        "memory": [
-          {
-            "username": "user1",
-            "points": "10000"
-          },
-          {
-            "username": "user2",
-            "points": "10000"
-          },
-          {
-            "username": "user3",
-            "points": "10000"
-          }
-        ]
-      }
-    });
-  }
+    loadPlayers = () => {
+      API.getPlayers()
+      .then(res =>
+        this.setState({ players: res.data })
+      )
+      .catch(err => console.log(err));
+    };
 
-  // We are using JSON.stringify because that is the proper way to pass an object to an attribute
-  // per the HTML spec. alternatively you can use ZingGrid api to setdata if you do
-  // not want a string form of data in the DOM tied to an attribute
-  render() {
-    return (
-      <div>
-        <Row>
-          <Col size="sm-12">
-            <zing-grid id="MathLeaderBoard" data={JSON.stringify(this.props.stats)} loading></zing-grid>
-          </Col>
-        </Row>
-      </div>
-    );
-  }
+    render() {
+      return (
+        <div>
+          <Container>
+            <Table responsive="sm">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Username</th>
+                  <th>Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>playerOne</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                {this.state.players.map(player => (
+                  <tr>
+                    <td>{player.rank}</td>
+                    <td>{player.username}</td>
+                    <td>{player.points}</td>
+                ))}
+                </tr>
+              </tbody>
+            </Table>
+          </Container>
+        </div>
+      );
+    }
 }
+
 export default MathLeaderBoard;
