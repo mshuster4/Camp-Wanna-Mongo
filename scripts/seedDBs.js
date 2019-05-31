@@ -8,12 +8,10 @@ mongoose.connect(
 
 const playerSeed = [
     {
-        rank: 1,
         username: "playerOne",
         points: 1
     },
     {
-        rank: 2,
         username: "playerTwo",
         points: 1
     }

@@ -135,7 +135,7 @@ class AddGame extends Component {
 
   showResults = () => {
     if (this.state.hasGameEnded === true) {
-    API.updateMath(this.state.wins);
+    API.postPlayerScore(this.state.wins);
     console.log("wins: " + this.state.wins);
     return (
       <MathGameResultModal 

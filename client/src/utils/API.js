@@ -24,6 +24,9 @@ export default {
   },
   getPlayers: function() {
     return axios.get("/api/players");
+  },
+  postPlayerScore: function(playerData) {
+    return axios.post("api/players",{  points: playerData })
   }
 
 };
