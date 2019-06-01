@@ -20,7 +20,7 @@ app.use(routes);
 
 // Send every other request to the React app
 // Define any API routes before this runs
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/campwannagetajob");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://camper:camperpassword1@ds231207.mlab.com:31207/heroku_0j6v6gcw");
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
