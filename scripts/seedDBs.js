@@ -10,23 +10,35 @@ const playerSeed = [
     {
         username: "playerOne",
         mathPoints: 3,
-        overallPoints: 80
+        overallPoints: 80,
+        memoryPoints: 3,
+        minesPoints: 3,
+        triviaPoints: 1
     },
     {
         username: "playerTwo",
         mathPoints: 2,
-        overallPoints: 33
+        overallPoints: 33,
+        memoryPoints: 4,
+        minesPoints: 3,
+        triviaPoints: 1
     },
     {
         username: "playerThree",
         mathPoints: 4,
-        overallPoints: 120
+        overallPoints: 120,
+        memoryPoints: 2,
+        minesPoints: 3,
+        triviaPoints: 1
 
     },
     {
-        userName: "playerFour",
-        mathPoints: 0,
-        overallPoints: 0
+        username: "playerFour",
+        mathPoints: 1,
+        overallPoints: 1,
+        memoryPoints: 1,
+        minesPoints: 3,
+        triviaPoints: 1
     }
 
 ];

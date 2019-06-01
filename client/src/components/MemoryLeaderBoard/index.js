@@ -4,7 +4,7 @@ import Table from "react-bootstrap/Table";
 import { ScoreTable, Player } from "../PlayerTable";
 import { Container } from "../Grid";
 
-class MinesLeaderBoard extends Component {
+class MemoryLeaderBoard extends Component {
   constructor(props) {
     super(props)
     console.log(this.props)
@@ -41,7 +41,7 @@ class MinesLeaderBoard extends Component {
                 {this.state.players.map(player =>(
                   <Player key={player._id}>
                   <td>{player.username}</td>
-                  <td>{player.minesPoints}</td>
+                  <td>{player.memoryPoints}</td>
                   </Player>
                 ))}
                 </ScoreTable>
@@ -52,4 +52,4 @@ class MinesLeaderBoard extends Component {
     }
 }
 
-export default MinesLeaderBoard;
+export default MemoryLeaderBoard;

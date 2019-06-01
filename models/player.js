@@ -5,7 +5,10 @@ const Schema = mongoose.Schema;
 const playerSchema = new Schema({
     username: {type: String, required: true, default: "Guest"}, 
     mathPoints: {type: Number},
-    overallPoints: {type: Number}
+    overallPoints: {type: Number},
+    memoryPoints: {type: Number},
+    minesPoints: {type: Number},
+    triviaPoints: {type: Number}
 });
 
 
