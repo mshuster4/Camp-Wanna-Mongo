@@ -4,7 +4,8 @@ module.exports = {
   findAll: function(req, res) {
     db.Player
       .find(req.query)
-      .sort({ points: -1 })
+      .sort({ overallPoints: -1 })
+      .limit(10)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
@@ -16,11 +17,7 @@ module.exports = {
   },
   update: function(req, res) {
     db.Player
-      .findOneAndUpdate({_id:req.params.id}, function(err, player) {
-        player.setNext("rank", function(err, user) {
-          if (err) console.log("didn't work because", err);
-        });
-      })
+      .findOneAndUpdate({_id:req.params.id})
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   }

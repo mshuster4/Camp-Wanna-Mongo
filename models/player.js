@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 
 const playerSchema = new Schema({
     username: {type: String, required: true, default: "Guest"}, 
-    points: {type: Number}
+    mathPoints: {type: Number},
+    overallPoints: {type: Number}
 });
 
 

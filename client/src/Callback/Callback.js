@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavBar from "../components/NavBar";
 import GameCarousel from "../components/GameCarousel";
 import GameMenu from "../components/GameMenu";
-import MathLeaderBoard from "../components/MathLeaderBoard";
+import LeaderBoardContainer from "../components/LeaderBoardContainer";
 
 class Callback extends Component {
   render() {
@@ -17,7 +17,7 @@ class Callback extends Component {
         ></NavBar>
         <GameCarousel></GameCarousel>
         <GameMenu></GameMenu>
-        <MathLeaderBoard></MathLeaderBoard>
+        <LeaderBoardContainer></LeaderBoardContainer>
       </div>
     );
   }

@@ -25,8 +25,8 @@ export default {
   getPlayers: function() {
     return axios.get("/api/players");
   },
-  postPlayerScore: function(playerData) {
-    return axios.post("api/players", {  points: playerData })
+  postPlayerMathScore: function(playerData) {
+    return axios.post("api/players", {  mathPoints: playerData })
   },
   setPlayerRank: function(id) {
     return axios.put("api/players" + id)

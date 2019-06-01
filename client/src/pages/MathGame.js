@@ -9,7 +9,7 @@ class MathGame extends Component {
             challengeRange={[2, 9]}
             challengeSize={6}
             answerSize={4}
-            initialSeconds={15}
+            initialSeconds={60}
           />
         </div>
       );

@@ -1,7 +1,7 @@
 import React from 'react';
 import GameCarousel from "../components/GameCarousel";
 import GameMenu from "../components/GameMenu";
-import MathLeaderBoard from "../components/MathLeaderBoard";
+import LeaderBoardContainer from "../components/LeaderBoardContainer";
 import Footer from "../components/Footer"
 
 class Home extends React.Component {
@@ -11,7 +11,7 @@ class Home extends React.Component {
       <div class="main-container">
         <GameCarousel></GameCarousel>
         <GameMenu></GameMenu>
-        <MathLeaderBoard></MathLeaderBoard>
+        <LeaderBoardContainer></LeaderBoardContainer>
         <Footer></Footer>
       </div>
     );
