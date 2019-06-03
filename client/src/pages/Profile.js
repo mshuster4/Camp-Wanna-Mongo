@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Glyphicon } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import './Profile.css';
 
 class Profile extends Component {

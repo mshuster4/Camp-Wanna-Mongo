@@ -42,8 +42,7 @@ export default class App extends React.Component {
   render() {
     return (
     <div>
-      <NavBar
-        />
+      <NavBar auth={this.props.auth} />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Home" component={Home} />
