@@ -1,9 +1,11 @@
 import React from 'react';
-import { Route, Router } from 'react-router-dom';
+import { Redirect, Route, Router } from 'react-router-dom';
 import App from './App';
 import Callback from './Callback/Callback';
 import Auth from './Auth/Auth';
 import history from './history';
+import Home from './pages/Home';
+import Profile from './pages/Profile';
 
 const auth = new Auth();
 
@@ -18,10 +20,18 @@ export function makeRoutes() {
     <Router history={history}>
       <div>
         <Route path="/" render={(props) => <App auth={auth} {...props} />} />
+        <Route path="/home" render={(props) => <Home auth={auth} {...props} />} />
+        <Route path="/profile" render={(props) => (
+          !auth.isAuthenticated() ? (
+            <Redirect to="/home"/>
+          ) : (
+            <Profile auth={auth} {...props} />
+          )
+        )} />
         <Route path="/callback" render={(props) => {
           handleAuthentication(props);
-          return <Callback {...props} auth={auth} /> 
-        }}/>
+          return <Callback {...props} /> 
+        }}/>  
       </div>
     </Router>
   );

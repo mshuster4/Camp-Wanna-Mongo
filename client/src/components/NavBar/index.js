@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import "./style.css";
 import { Link } from 'react-router-dom'
 import { Navbar, Nav, Button } from 'react-bootstrap';
-//import auth0 from 'auth0-js';
 import Logo from "../HomePageImages/logo.png" 
 import { Container, Row, Col } from "../Grid"
 
 class NavBar extends Component {
   render() {
-    const { isAuthenticated, login, logout } = this.props;
+    const { isAuthenticated, login, logout } = this.props.auth;
     return (
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
@@ -28,8 +27,9 @@ class NavBar extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ml-auto">
                 <Link to="/" className="main-nav nav-link">Home</Link>
-                <Nav.Link className="main-nav">Leaderboards</Nav.Link>
-                <Nav.Link className="main-nav">Contact Us</Nav.Link>
+                <Nav.Link to="/Profile" className="main-nav">Profile</Nav.Link>
+                <Nav.Link to="/Resources" className="main-nav">Resources</Nav.Link>
+                <Nav.Link to="/About" className="main-nav">About Us</Nav.Link>
               {
                 !isAuthenticated() && (
                     <Button
@@ -41,6 +41,17 @@ class NavBar extends Component {
                       Log In
                     </Button>
                   )
+              }
+              {
+              isAuthenticated() && (
+                  <Button
+                    bsStyle="primary"
+                    className="btn-margin"
+                    onClick={this.goTo.bind(this, 'profile')}
+                  >
+                    Profile
+                  </Button>
+                )
               }
               {
                 isAuthenticated() && (

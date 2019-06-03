@@ -43,9 +43,6 @@ export default class App extends React.Component {
     return (
     <div>
       <NavBar
-          isAuthenticated={this.isAuthenticated}
-          login={this.login}
-          logout={this.logout}
         />
         <Switch>
           <Route exact path="/" component={Home} />

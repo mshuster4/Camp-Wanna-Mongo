@@ -1,18 +1,33 @@
-import React from 'react';
-import GameCarousel from "../components/GameCarousel";
-import GameMenu from "../components/GameMenu";
-import LeaderBoardContainer from "../components/LeaderBoardContainer";
-import Footer from "../components/Footer"
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { Component } from 'react';
 
-class Home extends React.Component {
-
+class Home extends Component {
+  login() {
+    this.props.auth.login();
+  }
   render() {
+    const { isAuthenticated } = this.props.auth;
     return (
-      <div class="main-container">
-        <GameCarousel></GameCarousel>
-        <GameMenu></GameMenu>
-        <LeaderBoardContainer></LeaderBoardContainer>
-        <Footer></Footer>
+      <div className="container">
+        {
+          isAuthenticated() && (
+              <h4>
+                You are logged in!
+              </h4>
+            )
+        }
+        {
+          !isAuthenticated() && (
+              <h4>
+                You are not logged in! Please{' '}
+                <a style={{ cursor: 'pointer' }}
+                  onClick={this.login.bind(this)}>
+                  Log In
+                </a>
+                {' '}to continue.
+              </h4>
+            )
+        }
       </div>
     );
   }
