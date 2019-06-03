@@ -44,8 +44,8 @@ export default class App extends React.Component {
     <div>
       <NavBar auth={this.props.auth} />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/Home" component={Home} />
+          <Route exact path="/" auth={this.props.auth} component={Home} />
+          <Route exact path="/Home" auth={this.props.auth} component={Home} />
           <Route exact path="/MathGame" component={MathGame} />
           <Route exact path="/Trivia" component={Trivia} />
           <Route exact path="/MinesweeperGame" component={MinesweeperGame} />
