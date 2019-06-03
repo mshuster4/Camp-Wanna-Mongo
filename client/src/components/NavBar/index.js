@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import "./style.css";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
-import Logo from "../HomePageImages/logo.png" 
-import { Container, Row, Col } from "../Grid"
+import Logo from "../HomePageImages/logo.png";
+import { Container, Row, Col } from "../Grid";
 
 class NavBar extends Component {
   render() {
