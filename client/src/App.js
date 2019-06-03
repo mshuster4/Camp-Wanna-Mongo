@@ -5,7 +5,7 @@ import MathGame from "./pages/MathGame";
 import Trivia from "./pages/Trivia";
 import Memory from "./pages/Memory";
 import MinesweeperGame from "./pages/MinesweeperGame";
-import Home from "./pages/Home";
+//import Home from "./pages/Home";
 import HtmlHeroes from "./pages/HtmlHeroes";
 import CssCrusaders from "./pages/CssCrusaders";
 import JsJunkies from "./pages/JsJunkies";
@@ -44,8 +44,8 @@ export default class App extends React.Component {
     <div>
       <NavBar auth={this.props.auth} />
         <Switch>
-          <Route exact path="/" auth={this.props.auth} component={Home} />
-          <Route exact path="/Home" auth={this.props.auth} component={Home} />
+          <Route exact path="/"/>
+          <Route exact path="/Home"/>
           <Route exact path="/MathGame" component={MathGame} />
           <Route exact path="/Trivia" component={Trivia} />
           <Route exact path="/MinesweeperGame" component={MinesweeperGame} />
