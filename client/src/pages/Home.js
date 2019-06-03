@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-is-valid 
 import React, { Component } from 'react';
 
 class Home extends Component {
@@ -34,3 +34,4 @@ class Home extends Component {
 }
 
 export default Home;
+*/
