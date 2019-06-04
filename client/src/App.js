@@ -11,6 +11,7 @@ import CssCrusaders from "./pages/CssCrusaders";
 import JsJunkies from "./pages/JsJunkies";
 import DataDivers from "./pages/DataDivers";
 import { Route, Switch } from "react-router-dom";
+import Callback from './Callback/Callback';
 
 
 export default class App extends React.Component {
@@ -44,8 +45,8 @@ export default class App extends React.Component {
     <div>
       <NavBar auth={this.props.auth} />
         <Switch>
-          <Route exact path="/"/>
-          <Route exact path="/Home"/>
+          <Route exact path="/" component={Callback}/>
+          <Route exact path="/Home" component={Callback}/>
           <Route exact path="/MathGame" component={MathGame} />
           <Route exact path="/Trivia" component={Trivia} />
           <Route exact path="/MinesweeperGame" component={MinesweeperGame} />
