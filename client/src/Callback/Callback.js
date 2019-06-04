@@ -9,7 +9,7 @@ class Callback extends Component {
     console.log(this.props);
     return (
       <div>
-        <NavBar
+        <NavBar auth={this.props.auth}
           isAuthenticated={this.props.auth.isAuthenticated}
           login={this.props.auth.login}
           
