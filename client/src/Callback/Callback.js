@@ -10,9 +10,7 @@ class Callback extends Component {
     return (
       <div>
         <NavBar auth={this.props.auth}
-          isAuthenticated={this.props.auth.isAuthenticated}
           login={this.props.auth.login}
-          
           logout={this.props.auth.logout}
         ></NavBar>
         <GameCarousel></GameCarousel>
