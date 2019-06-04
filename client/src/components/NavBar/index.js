@@ -31,7 +31,7 @@ class NavBar extends Component {
                 <Nav.Link to="/Resources" className="main-nav">Resources</Nav.Link>
                 <Nav.Link to="/About" className="main-nav">About Us</Nav.Link>
               {
-                !isAuthenticated() && (
+                !isAuthenticated && (
                     <Button
                       id="qsLoginBtn"
                       bsStyle="primary"
@@ -43,7 +43,7 @@ class NavBar extends Component {
                   )
               }
               {
-              isAuthenticated() && (
+              isAuthenticated && (
                   <Button
                     bsStyle="primary"
                     className="btn-margin"
@@ -54,7 +54,7 @@ class NavBar extends Component {
                 )
               }
               {
-                isAuthenticated() && (
+                isAuthenticated && (
                     <Button
                       id="qsLogoutBtn"
                       bsStyle="primary"
