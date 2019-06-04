@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import Logo from "../HomePageImages/logo.png";
 import { Container, Row, Col } from "../Grid";
-import { Auth,  isauthenticated, login, logout} from '/../auth/auth.js';
 
 class NavBar extends Component {
   render() {
-    console.log(Auth)
+    const { isAuthenticated, login, logout } = this.props.auth;
     return (
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
@@ -32,7 +31,7 @@ class NavBar extends Component {
                 <Nav.Link to="/Resources" className="main-nav">Resources</Nav.Link>
                 <Nav.Link to="/About" className="main-nav">About Us</Nav.Link>
               {
-                !Auth.isAuthenticated && (
+                !isAuthenticated() && (
                     <Button
                       id="qsLoginBtn"
                       bsStyle="primary"
@@ -44,7 +43,7 @@ class NavBar extends Component {
                   )
               }
               {
-              Auth.isAuthenticated && (
+              isAuthenticated() && (
                   <Button
                     bsStyle="primary"
                     className="btn-margin"
@@ -55,7 +54,7 @@ class NavBar extends Component {
                 )
               }
               {
-                Auth.isAuthenticated && (
+                isAuthenticated() && (
                     <Button
                       id="qsLogoutBtn"
                       bsStyle="primary"
