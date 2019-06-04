@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import API from "../../utils/API";
 import Table from "react-bootstrap/Table";
 import { ScoreTable, Player } from "../PlayerTable";
-import { Container } from "../Grid";
+import "../MathLeaderBoard/style.css";
 
 class TriviaLeaderBoard extends Component {
   constructor(props) {
@@ -29,24 +29,22 @@ class TriviaLeaderBoard extends Component {
     render() {
       return (
         <div>
-          <Container>
-            <Table responsive="sm">
-              <thead>
-                <tr>
-                  <th>Username</th>
-                  <th>Points</th>
-                </tr>
-              </thead>
-                <ScoreTable>
-                {this.state.players.map(player =>(
-                  <Player key={player._id}>
-                  <td>{player.username}</td>
-                  <td>{player.triviaPoints}</td>
-                  </Player>
-                ))}
-                </ScoreTable>
-            </Table>
-          </Container>
+          <Table responsive="sm">
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+              <ScoreTable>
+              {this.state.players.map(player =>(
+                <Player key={player._id}>
+                <td>{player.username}</td>
+                <td>{player.triviaPoints}</td>
+                </Player>
+              ))}
+              </ScoreTable>
+          </Table>
         </div>
       );
     }

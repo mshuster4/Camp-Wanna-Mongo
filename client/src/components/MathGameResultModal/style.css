@@ -1,9 +1,8 @@
-div#resultsModal {
+div#modal {
     border-radius: 4px;
     text-align: center;
     margin-top: 4rem;
     min-width: 50%;
-    min-height: 50%;
 }
 
 
@@ -23,18 +22,19 @@ h5 {
 
 button.results-button {
     margin-top: 1rem;
-    width: 100%;
-    padding: 10px;
+    margin-bottom: 2rem;
+    width: 50%;
+    padding: 7px;
     border-radius: 4px; 
-    color: #8C0B23;
-    background-color: white; 
-    border-color: #8C0B23;
+    background-color: #8C0B23;
+    color: white; 
+    border-color:white;
     font-style: normal;
 }
 
 button.results-button:hover, button.results-button:focus, button.results-button:active {
-    background-color: #8C0B23;
-    color: white; 
-    border-color: white;
+    color: #8C0B23;
+    background-color: white; 
+    border-color: #8C0B23;
     outline: 0 none !important;
 }

@@ -1,7 +1,9 @@
 .html-quiz-body {
     background-image: url("../HomePageImages/htmlBackground.png");
-    height: 100vh;
     background-size: 100% 100%;
+    overflow: auto;
+    height: 100vh;
+    width: auto;
 }
 
 .react-quiz-container {

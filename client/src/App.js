@@ -41,7 +41,7 @@ export default class App extends React.Component {
   }
 
   render() {
-    const { isAuthenticated } = this.props.auth;
+  
     return (
     <div>
       <NavBar auth={this.props.auth} />
