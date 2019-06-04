@@ -9,11 +9,10 @@ class Callback extends Component {
     console.log(this.props);
     return (
       <div>
-        <NavBar auth={this.props.auth}
-        ></NavBar>
-        <GameCarousel></GameCarousel>
-        <GameMenu></GameMenu>
-        <LeaderBoardContainer></LeaderBoardContainer>
+        <NavBar auth={this.props.auth}/>
+        <GameCarousel/>
+        <GameMenu/>
+        <LeaderBoardContainer/>
       </div>
     );
   }
