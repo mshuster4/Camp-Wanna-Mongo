@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import Logo from "../HomePageImages/logo.png";
 import { Container, Row, Col } from "../Grid";
-import { Auth,  isauthenticated, login, logout} from '../../auth/auth.js';
+import { Auth,  isauthenticated, login, logout} from '/../auth/auth.js';
 
 class NavBar extends Component {
   render() {
