@@ -1,0 +1,23 @@
+.container.leaderboard-container {
+    min-height: 50vh;
+    margin-bottom: 2.5rem;
+}
+
+.nav-justified .nav-item {
+    border: 1px solid #D9D6D2;
+    background-color: white;
+    color: #8C0B23;
+}
+
+.nav-justified .nav-item:hover {
+    border: 1px solid #D9D6D2;
+    color: white;
+    background-color: #8C0B23;
+}
+
+
+.nav-justified .nav-item.active {
+    border: 1px solid #D9D6D2;
+    color: white;
+    background-color: #8C0B23;
+}

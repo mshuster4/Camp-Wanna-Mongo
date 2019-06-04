@@ -30,22 +30,24 @@ class GameMenu extends React.Component {
                 <Col size="sm-12">
                     <Row>
                         <Col size="sm-12 md-3">
-                        <Link to="/Memory">
-                            <Flippy
-                                flipOnHover={true}
-                                flipDirection="horizontal"
-                            >
-                                <FrontSide>
-                                        <h4 className="text-center">Memory Lane</h4>
-                                    <Card.Img src={MemoryIcon} alt="memory"/>
-                                    <p>Improve your recall and short-term memory.</p>
-                                </FrontSide>
-                                <BackSide>
-                                    <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={Memory} alt="memory"/>
-                                </BackSide>
-                            </Flippy>
-                        </Link>
+                            <div class="skills-container">
+                                <Link to="/Memory">
+                                    <Flippy
+                                        flipOnHover={true}
+                                        flipDirection="horizontal"
+                                    >
+                                        <FrontSide>
+                                                <h4 className="text-center">Memory Lane</h4>
+                                            <Card.Img src={MemoryIcon} alt="memory"/>
+                                            <p>Improve your recall and short-term memory.</p>
+                                        </FrontSide>
+                                        <BackSide>
+                                            <h4 className="text-center">Preview</h4>
+                                            <Card.Img src={Memory} alt="memory"/>
+                                        </BackSide>
+                                    </Flippy>
+                                </Link>
+                            </div>
                         </Col>
                         <Col size="sm-12 md-3">
                         <Link to="/MathGame">
@@ -60,7 +62,7 @@ class GameMenu extends React.Component {
                                 </FrontSide>
                                 <BackSide>
                                     <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={DigitDash} alt="digit"/>
+                                    <Card.Img src={DigitDash} alt="digit"/>
                                 </BackSide>
                             </Flippy>
                         </Link>
@@ -78,7 +80,7 @@ class GameMenu extends React.Component {
                                 </FrontSide>
                                 <BackSide>
                                     <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={Mines} alt="mines"/>
+                                    <Card.Img src={Mines} alt="mines"/>
                                 </BackSide>
                             </Flippy>
                         </Link>
@@ -96,10 +98,10 @@ class GameMenu extends React.Component {
                                 </FrontSide>
                                 <BackSide>
                                     <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={Quiz} alt="quiz" />
+                                    <Card.Img src={Quiz} alt="quiz" />
                                 </BackSide>
                             </Flippy>
-                        </Link>
+                          </Link>
                         </Col>
                     </Row>
                 </Col>
@@ -120,7 +122,7 @@ class GameMenu extends React.Component {
                                 </FrontSide>
                                 <BackSide>
                                     <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={htmlPreview} alt="html"/>
+                                    <Card.Img src={htmlPreview} alt="html"/>
                                 </BackSide>
                             </Flippy>
                         </Link>
@@ -138,7 +140,7 @@ class GameMenu extends React.Component {
                                 </FrontSide>
                                 <BackSide>
                                     <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={cssPreview} alt="digit"/>
+                                    <Card.Img src={cssPreview} alt="digit"/>
                                 </BackSide>
                             </Flippy>
                         </Link>
@@ -156,7 +158,7 @@ class GameMenu extends React.Component {
                                 </FrontSide>
                                 <BackSide>
                                     <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={jsPreview} alt="mines"/>
+                                    <Card.Img src={jsPreview} alt="mines"/>
                                 </BackSide>
                             </Flippy>
                         </Link>
@@ -174,7 +176,7 @@ class GameMenu extends React.Component {
                                 </FrontSide>
                                 <BackSide>
                                     <h4 className="text-center">Preview</h4>
-                                    <img className="img-fluid back-image" src={dataPreview} alt="quiz" />
+                                    <Card.Img src={dataPreview} alt="quiz" />
                                 </BackSide>
                             </Flippy>
                         </Link>

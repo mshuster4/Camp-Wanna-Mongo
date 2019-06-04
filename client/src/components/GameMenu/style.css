@@ -10,18 +10,12 @@
     background-color: white;
 }
 
-img.img-fluid.back-image {
-    padding: 2px;
-}
-
-img.card-img {
-    height: 16vh;
-}
-
-img.img-fluid.back-image {
-    height: 20vh;
+.card-img {
     width: 100%;
+    border-radius: calc(.25rem - 1px);
+    height: 150px;
 }
+
 
 h4 {
     font-family: bello-pro, sans-serif;

@@ -7,7 +7,7 @@ import { Container, Row, Col } from "../Grid";
 
 class NavBar extends Component {
   render() {
-    const { isAuthenticated, login, logout } = this.props.auth;
+    //const { isAuthenticated, login, logout } = this.props.auth;
     return (
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
@@ -30,7 +30,7 @@ class NavBar extends Component {
                 <Nav.Link to="/Profile" className="main-nav">Profile</Nav.Link>
                 <Nav.Link to="/Resources" className="main-nav">Resources</Nav.Link>
                 <Nav.Link to="/About" className="main-nav">About Us</Nav.Link>
-              {
+              {/* {
                 !isAuthenticated() && (
                     <Button
                       id="qsLoginBtn"
@@ -64,7 +64,7 @@ class NavBar extends Component {
                       Log Out
                     </Button>
                   )
-              }
+              } */}
                 </Nav>
               </Navbar.Collapse>
             </Col>

@@ -6,7 +6,6 @@ import MinesLeaderBoard from "../MinesLeaderBoard";
 import TriviaLeaderBoard from "../TriviaLeaderBoard";
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-import { Container } from '../Grid';
 import "./style.css"
 
 
@@ -14,13 +13,13 @@ class LeaderBoardContainer extends Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            key: 'overall',
+            key: 'math',
         };
     }
     
     render() {
         return (
-            <Container>
+            <div className="container leaderboard-container">
                 <Tabs 
                     id="controlled"
                     justify variant="tabs"
@@ -43,7 +42,7 @@ class LeaderBoardContainer extends Component {
                         <TriviaLeaderBoard/>
                     </Tab>
                 </Tabs>
-            </Container>
+            </div>
 
         );
 

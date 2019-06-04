@@ -1,14 +1,16 @@
 .data-quiz-body {
     background-image: url("../HomePageImages/dataBackground.png");
-    height: 100vh;
     background-size: 100% 100%;
+    overflow: auto;
+    height: 100vh;
+    width: auto;
 }
 
 .react-quiz-container {
-    margin: 0px;
     width: 100%;
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: rgba(255,255,255,0.75);
     padding: 15px;
     border-radius: 4px;

@@ -1,6 +1,5 @@
 // src/Auth/Auth.js
 import auth0 from 'auth0-js';
-import { AUTH_CONFIG } from './auth0-variables';
 import history from '../history';
 
 export default class Auth {
@@ -10,9 +9,9 @@ export default class Auth {
   userProfile;
 
   auth0 = new auth0.WebAuth({
-    domain: AUTH_CONFIG.domain,
-    clientID: AUTH_CONFIG.clientId,
-    redirectUri: AUTH_CONFIG.callbackUrl,
+    domain: 'dev-6gezx8ko.auth0.com',
+    clientID: 'jDkI8E6N1VrPJU1O4euMkIWvaBuVxKid',
+    redirectUri: 'https://camp-wanna-mongo.herokuapp.com',
     responseType: 'token id_token',
     scope: 'openid profile'
   });
