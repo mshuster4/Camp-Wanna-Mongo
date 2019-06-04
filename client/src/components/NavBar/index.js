@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import Logo from "../HomePageImages/logo.png";
 import { Container, Row, Col } from "../Grid";
+import Auth from "../../Auth/Auth.js"
+
+const { isAuthenticated, login, logout } = this.props.auth;
 
 class NavBar extends Component {
   render() {
-    const { isAuthenticated, login, logout } = this.props.auth;
     return (
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
