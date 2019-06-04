@@ -61,7 +61,7 @@ npm start
 
 ## Authors:
 
-* **Marguerite Schuster** - [GitHub](https://github.com/mschuster4)
+* **Marguerite Shuster** - [GitHub](https://github.com/mschuster4)
 * **Maggie Powell** - [GitHub](https://github.com/maggiepowell)
 * **Josh Arias** - [GitHub](https://github.com/joshuaarias357)
 * **Chris Alberg** - [GitHub](https://github.com/calberg)
