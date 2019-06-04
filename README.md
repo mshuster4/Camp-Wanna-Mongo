@@ -2,9 +2,9 @@
 
 We created a MERN application with games, leaderboards, and and user profiles. Users will be able to use our site to prepare for the job hunt process. Our site provides a fun way to approach an uncomfortable topic, getting a new job.
 
-![Homepage](./assets/wannagetajob_hp.png?raw=true "Homepage")
+![Homepage](./client/src/components/HomePageImages/htmlPreview.png?raw=true "Homepage")
 
-![Rough Draft of UI](./assets/UI_Rough_Draft.jpg?raw=true "Rough Draft of UI")
+![Rough Draft of UI](./client/src/components/HomePageImages/UI_Rough_Draft.jpg?raw=true "Rough Draft of UI")
 
 
 ## Getting Started
@@ -37,13 +37,6 @@ npm i
 npm i
 ```
 
-* Open MySQL workbench or use MySQL in VS Code and run the following files:
-
-```
-project-three/models/schema.sql
-project-three/models/seeds.sql
-```
-
 * To start the server run the following while inside project-three:
 
 ```
@@ -56,30 +49,9 @@ node server.js
 npm start
 ```
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployed with Heroku:
 
-[Heroku Link](https://camp-wannagetajob.herokuapp.com/)
+[Heroku Link](https://camp-wanna-mongo.herokuapp.com/)
 
 ## Built With:
 
