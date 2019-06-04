@@ -4,10 +4,13 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import Logo from "../HomePageImages/logo.png";
 import { Container, Row, Col } from "../Grid";
+import Auth from "../../Auth/Auth";
+
+const auth = new Auth();
 
 class NavBar extends Component {
   render() {
-    //const { isAuthenticated, login, logout } = this.props.auth;
+    const { login, logout } = this.props.auth;
     return (
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
@@ -30,8 +33,8 @@ class NavBar extends Component {
                 <Nav.Link to="/Profile" className="main-nav">Profile</Nav.Link>
                 <Nav.Link to="/Resources" className="main-nav">Resources</Nav.Link>
                 <Nav.Link to="/About" className="main-nav">About Us</Nav.Link>
-              {/* {
-                !isAuthenticated() && (
+               {
+                !auth.isAuthenticated() && (
                     <Button
                       id="qsLoginBtn"
                       bsStyle="primary"
@@ -43,7 +46,7 @@ class NavBar extends Component {
                   )
               }
               {
-              isAuthenticated() && (
+              auth.isAuthenticated() && (
                   <Button
                     bsStyle="primary"
                     className="btn-margin"
@@ -54,7 +57,7 @@ class NavBar extends Component {
                 )
               }
               {
-                isAuthenticated() && (
+                auth.isAuthenticated() && (
                     <Button
                       id="qsLogoutBtn"
                       bsStyle="primary"
@@ -64,7 +67,7 @@ class NavBar extends Component {
                       Log Out
                     </Button>
                   )
-              } */}
+              }
                 </Nav>
               </Navbar.Collapse>
             </Col>
