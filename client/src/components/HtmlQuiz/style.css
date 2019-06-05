@@ -1,5 +1,7 @@
 .html-quiz-body {
-    background-image: url("../HomePageImages/htmlBackground.png");
+    background-image: url("../HomePageImages/htmlBackground1.png");
+    height: 100vh;
+
     background-size: 100% 100%;
     overflow: auto;
     height: 100vh;

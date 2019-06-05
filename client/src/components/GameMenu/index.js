@@ -2,23 +2,23 @@ import React from "react";
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import { Link } from 'react-router-dom'
 import {  Row, Col } from "../Grid";
-import MathIcon from "../HomePageImages/addition-icon.png";
-import MemoryIcon from "../HomePageImages/memory-icon.png";
-import TriviaIcon from "../HomePageImages/trivia-icon.png";
-import MinesIcon from "../HomePageImages/minesweeper-icon.png";
-import htmlIcon from "../HomePageImages/htmlIcon.png";
-import cssIcon from "../HomePageImages/cssIcon.png";
-import jsIcon from "../HomePageImages/jsIcon.png";
-import databaseIcon from "../HomePageImages/databaseIcon.png";
-import DigitDash from "../HomePageImages/digit-dash.png";
-import Quiz from "../HomePageImages/quiz.png";
-import Mines from "../HomePageImages/mines.png"
-import Memory from "../HomePageImages/memory.png"
+import MathIcon from "../HomePageImages/addition-icon1.png";
+import MemoryIcon from "../HomePageImages/memory-icon1.png";
+import TriviaIcon from "../HomePageImages/trivia-icon1.png";
+import MinesIcon from "../HomePageImages/minesweeper-icon1.png";
+import htmlIcon from "../HomePageImages/htmlIcon1.png";
+import cssIcon from "../HomePageImages/cssIcon1.png";
+import jsIcon from "../HomePageImages/jsIcon1.png";
+import databaseIcon from "../HomePageImages/databaseIcon1.png";
+import DigitDash from "../HomePageImages/digit-dash1.png";
+import Quiz from "../HomePageImages/quiz.1png";
+import Mines from "../HomePageImages/mines.1png"
+import Memory from "../HomePageImages/memory1.png"
 import Card from "react-bootstrap/Card";
-import htmlPreview from "../HomePageImages/htmlPreview.png";
-import cssPreview from "../HomePageImages/cssPreview.png";
-import jsPreview from "../HomePageImages/jsPreview.png";
-import dataPreview from "../HomePageImages/dataPreview.png";
+import htmlPreview from "../HomePageImages/htmlPreview1.png";
+import cssPreview from "../HomePageImages/cssPreview1.png";
+import jsPreview from "../HomePageImages/jsPreview1.png";
+import dataPreview from "../HomePageImages/dataPreview1.png";
 import "./style.css"
 
 
