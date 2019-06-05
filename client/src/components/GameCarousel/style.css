@@ -1,5 +1,5 @@
 .bg-color {
-    background-image:url("../HomePageImages/banner1.jpg");
+    background-image:url("../HomePageImages/banner.jpg");
     background-size: 100% 100%;
     padding: 35px 0px 35px 0px;
     margin-bottom: 2.5rem;
@@ -12,23 +12,23 @@
 #addition-game {
     background-position: center;
     background-size: 100% 100%;
-    background-image: url("../HomePageImages/addition-icon.png");
+    background-image: url("../HomePageImages/addition-icon1.png");
 }
 
 #minesweeper-game {
     background-position: center;
     background-size: 100% 100%;
-    background-image: url("../HomePageImages/minesweeper-icon.png");
+    background-image: url("../HomePageImages/minesweeper-icon1.png");
 }
 
 #trivia-game {
     background-position: center;
     background-size: 100% 100%;
-    background-image: url("../HomePageImages/trivia-icon.png");
+    background-image: url("../HomePageImages/trivia-icon1.png");
 }
 
 #memory-game {
     background-position: center;
     background-size: 100% 100%;
-    background-image: url("../HomePageImages/memory-icon.png");
+    background-image: url("../HomePageImages/memory-icon1.png");
 }

@@ -1,5 +1,5 @@
 .game-body {
-    background-image: url("../HomePageImages/mathgame-wallpaper.jpg");
+    background-image: url("../HomePageImages/mathgame-wallpaper1.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     padding-top: 2rem; 
@@ -39,7 +39,7 @@
 }
 
 .target {
-    background-image: url("../HomePageImages/number-background.png");
+    background-image: url("../HomePageImages/number-background1.png");
     background-size: 100% 100%;
     border: none; 
     margin-bottom: 1rem; 
