@@ -22,7 +22,7 @@ class DataQuiz extends React.Component {
     render() {
         return (
             <div className="data-quiz-body">
-                <Container>
+                <Container className="quiz-container">
                     <Row>
                         <Col size="sm-2"></Col>
                         <Col size="sm-8">

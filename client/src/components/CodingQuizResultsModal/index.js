@@ -34,7 +34,7 @@ class CodingQuizResultsModal extends React.Component {
                 closeOnOverlayClick={false}
             >
                 <p className="results-text">You scored {this.props.correct}</p>
-               <Link to="/Home"><button className="home-button">Return to Camp</button></Link>
+               <Link to="/"><button className="home-button">Return to Camp</button></Link>
             </Modal>
             </div>
         );
@@ -51,9 +51,8 @@ class CodingQuizResultsModal extends React.Component {
                 showCloseIcon={false}
                 closeOnOverlayClick={false}
             >
-                <p className="results-text">You scored {this.props.correct}.  This is the highest score possible</p>
-                <p>Here is your badge: </p>
-                <Link to="/Home"><button className="home-button">Return to Camp</button></Link>
+                <p className="results-text">You scored {this.props.correct}.  This is the highest score possible. Nice job!</p>
+                <Link to="/"><button className="home-button">Return to Camp</button></Link>
             </Modal>
             </div>
             

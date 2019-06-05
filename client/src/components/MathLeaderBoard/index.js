@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import API from "../../utils/API";
 import Table from "react-bootstrap/Table";
 import { ScoreTable, Player } from "../PlayerTable";
-import { Container } from "../Grid";
+import "./style.css";
 
 class MathLeaderBoard extends Component {
   constructor(props) {
@@ -29,7 +29,6 @@ class MathLeaderBoard extends Component {
     render() {
       return (
         <div>
-          <Container>
             <Table responsive="sm">
               <thead>
                 <tr>
@@ -46,7 +45,6 @@ class MathLeaderBoard extends Component {
                 ))}
                 </ScoreTable>
             </Table>
-          </Container>
         </div>
       );
     }

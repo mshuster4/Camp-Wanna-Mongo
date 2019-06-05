@@ -3,7 +3,6 @@ div#modal {
     text-align: center;
     margin-top: 4rem;
     min-width: 50%;
-    min-height: 60%;
 }
 
 p {
@@ -20,18 +19,19 @@ h5 {
 
 button.add-start {
     margin-top: 1rem;
-    width: 100%;
-    padding: 10px;
+    margin-bottom: 2rem;
+    width: 50%;
+    padding: 7px;
     border-radius: 4px; 
-    color: #8C0B23;
-    background-color: white; 
-    border-color: #8C0B23;
+    background-color: #8C0B23;
+    color: white; 
+    border-color:white;
     font-style: normal;
 }
 
 button.add-start:hover, button.add-start:focus, button.add-start:active {
-    background-color: #8C0B23;
-    color: white; 
-    border-color: white;
+    color: #8C0B23;
+    background-color: white; 
+    border-color: #8C0B23;
     outline: 0 none !important;
 }
