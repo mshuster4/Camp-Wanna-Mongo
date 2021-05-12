@@ -29,7 +29,7 @@
     "react-scrollspy": "^3.4.0",
     "react-tabs": "^3.0.0",
     "react-toggle-display": "^2.2.0",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "zinggrid": "^1.1.0"
   },
   "scripts": {
